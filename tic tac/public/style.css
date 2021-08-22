@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.main{
+    margin: 5% 20% ;
+}
+.btn button{
+    color: black;
+    font-size: 50px;
+    border: 2px solid red ;
+    padding: 5px 25px;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+.btn button:hover{
+    background-color: rgb(221, 219, 219);
+}
+.content{
+    font-size: 30px;
+    font-family: cursive;
+}
+.btn1 button{
+    font-size: 40px;
+    background-color: red;
+    border-radius: 4%;
+    margin-top: 40px;
+    padding: 4px 10px;
+}
+.btn1 button :hover{
+    background-color: black;
+    color: red;
+    transition: ease-in 0.6s;
+}
